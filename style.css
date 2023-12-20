@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body{
+    background-color: #141414;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.card{
+    padding-left: 25px;
+    text-align: center;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+    border: aqua solid 2px;
+    transition: 0.5s;
+}
+.card h1{
+    color: aqua; 
+}
+.card button{
+    padding: 5px 25px;
+    margin-top: 30px;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Decrement{
+    background-color: #f78181 ;
+    color: #141414;
+    transition: 0.5s;
+}
+#Decrement:hover{
+    transform: scale(1.2,1.2);
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#Increment{
+    background-color: #affe7d;
+    color: #141414;
+    transition: 0.5s;
+}
+#Increment:hover{
+    transform: scale(1.2,1.2);
+    background-color: #379000;
+    color: white;
+}
+#Reset{
+    background-color: rgb(255, 255, 255) ;
+    color: #141414;
+    transition: 0.5s;
+}
+#Reset:hover{
+    transform: scale(1.2,1.2);
+    background-color:#141414;
+    color: white;
+    box-shadow: 5px,5px;
+}
